@@ -1,0 +1,25 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+
+Style/SingleSpaceBeforeFirstArg:
+  Exclude:
+    - '**/Berksfile'
+    - '**/metadata.rb'
+
+Style/FileName:
+  Exclude:
+    - '**/Gemfile'
+    - '**/Berksfile'
+
+Style/RegexpLiteral:
+  Exclude:
+    - '**/Guardfile'
+
+Metrics/LineLength:
+  Exclude:
+    - '**/Guardfile'
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*.rb'
